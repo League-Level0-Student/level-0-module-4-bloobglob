@@ -25,6 +25,8 @@ public class SleepyHead {
         if(isWeekday) {
         	if(!isVacation) {
         		JOptionPane.showMessageDialog(null, "Get up lazybones!");
+        	}else {
+        		JOptionPane.showMessageDialog(null, "Sleep in!");
         	}
         }else {
         	JOptionPane.showMessageDialog(null, "Sleep in!");
